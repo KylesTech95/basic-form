@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="m-0 p-0 box-border">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body class="bg-current flex flex-col justify-center items-center h-screen w-full text-3xl">
+    
+    <div class="wrapper p-10 border-4 h-3/6"><!--border-->
+        <form action="index.html" id="form" class=" gap-7 form-actual flex flex-col justify-center items-center">
+            <span class="flex flex-row gap-4 justify-center items-center">
+                <label for="name" class="text-gray-200">Name</label>
+                <input required placeholder="Full Name" type="text" name="name" id="name" class="px-4 py-3 hover:scale-105 duration-300 rounded-2xl hover:cursor-pointer">
+            </span>
+            <span class="flex flex-row gap-4 justify-center items-center">
+                <label for="email" class="text-gray-200">Email</label>
+                <input required placeholder="Email" type="email" name="email" id="email" class="px-4 py-3 hover:scale-105 duration-300 rounded-2xl hover:cursor-pointer">
+            </span>
+            <button type="submit" class="rounded-lg border-2 py-2 px-3 mt-5 text-gray-200 duration-300 hover:text-green-400">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
